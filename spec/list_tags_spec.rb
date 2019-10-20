@@ -1,6 +1,6 @@
 require 'pry'
 
-RSpec.describe 'index.html' do
+#RSpec.describe 'index.html' do
   it 'contains a <ul> tag with the correct <li> tags' do
     ul = parsed_html.search('ul').first
     expect(ul).to_not be_nil, "The main <ul> tag is missing!"
